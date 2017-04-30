@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
@@ -13,7 +12,6 @@ import { MenuComponent } from './components/menu/menu.component';
 @NgModule({
     declarations: [
         AppComponent,
-        ContactComponent,
         ProductsComponent,
         HomeComponent,
         MenuComponent

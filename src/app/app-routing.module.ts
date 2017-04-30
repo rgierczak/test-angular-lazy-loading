@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ContactComponent } from './components/contact/contact.component';
 import { ProductsComponent } from './components/products/products.component';
 import { HomeComponent } from './components/home/home.component';
 
@@ -20,7 +19,7 @@ const routes: Routes = [
     },
     {
         path: 'contact',
-        component: ContactComponent
+        loadChildren: 'app/modules/contact/contact.module#ContactModule'
     }
 ];
 
