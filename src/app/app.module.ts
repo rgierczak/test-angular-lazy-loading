@@ -5,14 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductsComponent } from './components/products/products.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        ProductsComponent,
         HomeComponent,
         MenuComponent
     ],
@@ -25,5 +23,4 @@ import { MenuComponent } from './components/menu/menu.component';
     providers: [],
     bootstrap: [AppComponent]
 })
-export class AppModule {
-}
+export class AppModule {}
