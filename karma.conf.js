@@ -37,13 +37,13 @@ module.exports = function (config) {
                     statements: 90,
                     branches: 90,
                     lines: 70,
-                    functions: 90,
+                    functions: 90
                 },
                 each: {
                     statements: 80,
                     branches: 80,
                     lines: 60,
-                    functions: 80,
+                    functions: 80
                 },
             }
         },
