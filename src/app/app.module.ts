@@ -15,10 +15,10 @@ import { MenuComponent } from './components/menu/menu.component';
         MenuComponent
     ],
     imports: [
+        AppRoutingModule,
         BrowserModule,
         FormsModule,
-        HttpModule,
-        AppRoutingModule
+        HttpModule
     ],
     providers: [],
     bootstrap: [AppComponent]
